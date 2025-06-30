@@ -1,4 +1,3 @@
-
 import Typewriter from '../Typewriter/Typewriter';
 import {GitHubIcon,MailIcon,PhoneIcon, LinkedInIcon,ResumeIcon,LocationIcon} from '../Icons';
 const Home = () => {
@@ -19,12 +18,13 @@ const Home = () => {
     />
     
         </div>
-                <p style={{maxWidth:"600px"}}> 
+                <p className='m-2' style={{maxWidth:"600px"}}> 
+                  
                   An aspiring full-stack web developer with specialization in MERN Stack.
                   Ambitious and motivated to learn all things related to coding and technology.
                   Looking forward to working in a challenging work environment to kick start a
                   career while fulfilling organizational goals.
-                </p>
+               </p>
                  <div  className="d-flex align-items-center justify-content-evenly mt-3 mb-3" style={{width:"240px",color:"var(--clr-fg)"}}>
           <a style={{color:"var(--clr-fg)"}} href="https://github.com/khushboo-choudhary" target="_blank" rel="noreferrer" className="link link--icon" aria-label="GitHub">
             <GitHubIcon />

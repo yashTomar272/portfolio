@@ -1,10 +1,23 @@
 // ProjectSection.jsx
-import React from "react";
+import FadeIn from '../Animation/FadeIn'
 import image1 from '../imgs/image1.png'
 import image2 from '../imgs/image2.png'
 import image3 from '../imgs/image3.png'
 import image4 from '../imgs/image4.png'
 import image5 from '../imgs/image5.png'
+import {
+  JavaScriptIcon1,
+  HTMLIcon1,
+  CSSIcon1,
+  ReactIcon1,
+  ReduxIcon1,
+  NodeJSIcon1,
+  ExpressIcon1,
+  BootstrapIcon1,
+  MongoDBIcon1,
+  VercelIcon1,
+  GitHubIcon1,
+} from '../Icons';
 
 const projects = [
   {
@@ -12,7 +25,7 @@ const projects = [
     description:
       "Clone of the popular Pulse+ plus web application to buy medical products. Built on javascript for front end. It's a team project completed executed in 5 days.",
     image: image1, // Replace with real image link
-    tech: ["fab fa-html5", "fab fa-js-square", "fab fa-css3-alt"],
+    tech: [HTMLIcon1, JavaScriptIcon1, CSSIcon1],
     live: "#",
     code: "#",
   },
@@ -21,7 +34,7 @@ const projects = [
     description:
       "A website to purchase fashion-related products. A collaborative project built by a team of 5 executed in 5 days.",
     image: image2,
-    tech: ["fab fa-js-square", "fab fa-css3-alt", "fas fa-users"],
+    tech: [JavaScriptIcon1, CSSIcon1, VercelIcon1],
     live: "#",
     code: "#",
   },
@@ -30,7 +43,7 @@ const projects = [
     description:
       "Built the rockstargames application using ReactJS. The google authentication and payment functionality implemented.",
     image:image3,
-    tech: ["fab fa-js", "fab fa-react", "fas fa-lock"],
+    tech: [ReactIcon1,JavaScriptIcon1, BootstrapIcon1],
     live: "#",
     code: "#",
   },
@@ -39,7 +52,7 @@ const projects = [
     description:
       "Built the Aglecha diamonds application using ReactJS. Integrated the shopping cart, product filtering, and responsiveness.",
     image: image4,
-    tech: ["fab fa-react", "fab fa-js", "fas fa-gem"],
+    tech: [ExpressIcon1, NodeJSIcon1, ReduxIcon1,MongoDBIcon1],
     live: "#",
     code: "#",
   },
@@ -48,7 +61,7 @@ const projects = [
     description:
       "Built the Aglecha diamonds application using ReactJS. Integrated the shopping cart, product filtering, and responsiveness.",
     image: image5,
-    tech: ["fab fa-react", "fab fa-js", "fas fa-gem"],
+    tech: [GitHubIcon1, ReactIcon1, JavaScriptIcon1],
     live: "#",
     code: "#",
   },
@@ -60,11 +73,13 @@ const Projects = () => {
       className="container py-5 different"
       
     >
+      <FadeIn>
       <h2 className="text-center mb-5 ">
         PROJECTS
       </h2>
-
+</FadeIn>
       {projects.map((project, index) => (
+        <FadeIn>
         <div
           className="row align-items-center mb-5"
           key={index}
@@ -76,7 +91,7 @@ const Projects = () => {
         >
           {/* Image */}
           <div className="col-md-5 text-center mb-3 mb-md-0" >
-            <img style={{border:"5px solid var(--clr-primary)", borderRadius:"15px"}}
+            <img style={{minHeight:"185px",border:"5px solid var(--clr-primary)", borderRadius:"15px"}}
             
               src={project.image}
 
@@ -94,9 +109,11 @@ const Projects = () => {
               {project.description}
             </p>
             <div className="mb-3" style={{ color: "var(--clr-primary)", fontSize: "18px" }}>
-              {project.tech.map((icon, i) => (
-                <i className={`${icon} me-3`} key={i}></i>
-              ))}
+              {project.tech.map((Icon, i) => (
+    <span key={i} className="me-3">
+      <Icon size={35} color="var(--clr-primary)" />
+    </span>
+  ))}
             </div>
             <a
               href={project.live}
@@ -125,7 +142,7 @@ const Projects = () => {
               View Code
             </a>
           </div>
-        </div>
+        </div></FadeIn>
       ))}
     </div>
   );

@@ -1,7 +1,7 @@
 import Timeline from './Timeline';
 import '../cssFile/Timeline.css';
 
-
+import FadeIn from '../Animation/FadeIn';
 const Timeline2 = () => {
 
 const data = [
@@ -44,7 +44,8 @@ const data = [
 ];
   return (
     <div className="timeline-wrapper">
-  <h2 className='different2 text-center p-2 m-2' >My <span className='different'>Timeline 💫</span></h2>
+      <FadeIn>
+  <h2 className='different2 text-center p-2 m-2' >MY <span className='different'>TIMELINE 💫</span></h2></FadeIn>
       {data.map((item, index) => (
         <Timeline
           key={index}

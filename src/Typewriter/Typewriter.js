@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './Typewriter.css';
 
 const Typewriter = ({ phrases }) => {
-  const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);

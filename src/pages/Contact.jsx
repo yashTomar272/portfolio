@@ -1,11 +1,11 @@
-// ContactSection.jsx
-import React from "react";
+import FadeIn from "../Animation/FadeIn";
 import {
   LinkedInIcon,
   GitHubIcon,
   EmailIcon,
   PhoneIcon,
 } from "../Icons";
+
 
 const iconStyle = {
   color: "var(--clr-primary)",
@@ -17,17 +17,18 @@ const iconStyle = {
 const Contact = () => {
   return (
     <div style={{padding: "50px 0", textAlign: "center" }}>
+      <FadeIn>
       <h2 className="different2" style={{ fontSize: "2rem" }}>
-        GET IN <span className="different">Touch</span>
+        GET IN <span className="different">TOUCH</span>
       </h2>
-      <div style={{ marginTop: "20px" }}>
+      <div className="d-flex gap-4" style={{ marginTop: "20px" }}>
         <a
           href="https://www.linkedin.com/in/khushboo-k-766692148/"
           target="_blank"
           rel="noreferrer"
           style={iconStyle}
         >
-          <LinkedInIcon />
+          <LinkedInIcon size={48}/>
         </a>
         <a
           href="https://github.com/khushboo-choudhary"
@@ -35,7 +36,7 @@ const Contact = () => {
           rel="noreferrer"
           style={iconStyle}
         >
-          <GitHubIcon />
+          <GitHubIcon size={48}/>
         </a>
         <a
           href="mailto:kkhushboo321@gmail.com"
@@ -43,7 +44,7 @@ const Contact = () => {
           rel="noreferrer"
           style={iconStyle}
         >
-          <EmailIcon />
+          <EmailIcon size={48}/>
         </a>
         <a
           href="tel:+919944468826"
@@ -51,9 +52,9 @@ const Contact = () => {
           rel="noreferrer"
           style={iconStyle}
         >
-          <PhoneIcon />
+          <PhoneIcon size={48}/>
         </a>
-      </div>
+      </div></FadeIn>
     </div>
   );
 };

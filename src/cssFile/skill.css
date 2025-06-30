@@ -4,18 +4,6 @@
   width: fit-content;
 }
 
-.month-labels {
-  display: flex;
-  gap: 38px;
-  font-size: 12px;
-  padding-left: 30px;
-  margin-bottom: 5px;
-}
-
-.graph-container {
-  display: flex;
-  gap: 4px;
-}
 
 .week {
   display: flex;

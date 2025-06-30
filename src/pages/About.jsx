@@ -1,13 +1,13 @@
-
+import User from '../imgs/User.jpg'
 export const About = () => {
   return (      <div> 
          <h2 style={{textAlign:"center", }}><span className='different2'>ABOUT</span> <span className='different'>ME</span></h2>
              <div className='d-flex flex-column flex-md-row align-items-center gap-4' style={{maxWidth:"1095px"}}>
               <div className=""  >
-                <img style={{borderRadius:"20px", width:"280px", height:"280px"}}  src="https://avatars.githubusercontent.com/u/30701525?v=4" alt="Images" />
+                <img style={{borderRadius:"20px", width:"280px", height:"280px"}}  src={User} alt="Images" />
               </div>
-              <div className="different2" >
-                <h4 style={{fontSize:"17px"}}>
+              <div className="different2 m-2" >
+                <h4 className='' style={{fontSize:"17px"}}>
                   Hi Everyone, I am <span className="different">Khushboo </span>
                   from <span className="different"> Bangalore, Karnataka</span>.
                   I have completed my graduation in Bachelor of Computer Science Engineering
