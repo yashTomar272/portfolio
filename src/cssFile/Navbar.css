@@ -1,0 +1,102 @@
+/* Navbar.css */
+ .light {
+  --clr-bg: #fcfcfc;
+  --clr-bg-alt: #fff;
+  --clr-fg: #555;
+  --clr-fg-alt: #444;
+  --clr-primary: #2978b5;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dark {
+  --clr-bg: #180A0A;
+  --clr-bg-alt: #2a2f4c;
+  --clr-fg: #bdbddd;
+  --clr-fg-alt: #F582A7;
+  --clr-primary: #F10086;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color:var(--clr-bg);
+  font-family: sans-serif;
+}
+
+.navbar__brand {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--clr-primary);
+}
+/* 
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+*/
+.navbar__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+} 
+.navbar__nav ul li{
+    position:"relative";
+}
+.navbar__list li a {
+    position: relative;
+  text-decoration: none;
+  color: var(--clr-fg);
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.navbar__list li a:hover {
+  color: var(--clr-primary);
+}
+
+.navbar .link::before {
+    width:0%;
+  content: "";
+  display: block;
+  height: 0.084em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--clr-primary);
+ transition: width 0.3s ease-in-out;
+}
+.navbar .link:hover::before{
+width: 100%;
+}
+/*
+.theme-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 20px;
+} */
+
+ /* =========other */
+/* .navbar_list li a {
+  color: var(--clr-primary);
+  padding: 0 0 0.3em 0;
+  position: relative;
+}
+
+.navbar_list li a:hover {
+  color: var(--clr-primary);
+}
+
+
+.link:hover::before,
+.link:focus::before {
+  width: 100%;
+} */

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+.app {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: var(--clr-fg);
+  background-color: var(--clr-bg);
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.app {
+  overflow-x: hidden;
+}
+
+.light {
+  --clr-bg: #fcfcfc;
+  --clr-bg-alt: #fff;
+  --clr-fg: #555;
+  --clr-fg-alt: #444;
+  --clr-primary: #2978b5;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+
+.dark {
+  --clr-bg: #180A0A;
+  --clr-bg-alt: #2a2f4c;
+  --clr-fg: #bdbddd;
+  --clr-fg-alt: #F582A7;
+  --clr-primary: #F10086;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+  
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.different{
+    color:var(--clr-primary)
+}
+.different2{
+    color:var(--clr-fg-alt)
+    
+}

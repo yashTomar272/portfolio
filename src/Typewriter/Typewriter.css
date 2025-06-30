@@ -1,0 +1,15 @@
+.Typewriter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--clr-fg-alt);
+}
+
+.Typewriter__wrapper {
+  display: inline;
+}
+
+.Typewriter__cursor {
+  display: inline;
+  color: var(--clr-fg-alt);
+  transition: opacity 0.3s ease-in-out;
+}
