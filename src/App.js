@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import "./cssFile/Navbar.css";
 import "./cssFile/App.css"; 
 import SkillsSection from './pages/SkillsSection'; // adjust path as needed
-import Projects from './Projects';
+import Projects from './pages/Projects';
 import ColBody from './ColBody'; // Make sure this path is correct
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';

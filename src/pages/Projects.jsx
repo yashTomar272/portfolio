@@ -1,10 +1,10 @@
 // ProjectSection.jsx
 import React from "react";
-import image1 from './imgs/image1.png'
-import image2 from './imgs/image2.png'
-import image3 from './imgs/image3.png'
-import image4 from './imgs/image4.png'
-import image5 from './imgs/image5.png'
+import image1 from '../imgs/image1.png'
+import image2 from '../imgs/image2.png'
+import image3 from '../imgs/image3.png'
+import image4 from '../imgs/image4.png'
+import image5 from '../imgs/image5.png'
 
 const projects = [
   {
