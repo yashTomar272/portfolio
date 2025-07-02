@@ -6,41 +6,21 @@ const Timeline2 = () => {
 
 const data = [
   {
-    title: 'Full Stack Developer',
-    subtitle: 'Quickiii Formerly Veerji(Remote)',
+    title: 'Full Stack Developer (MERN Stack)',
+    subtitle: 'Self Learning & Personal Projects',
     description:
-      'I worked as a Full Stack Developer at Quickiii contributing to the development of a seller application using React Native. Started as an intern, later transitioned to a full-time role due to performance and dedication.',
-    date: 'October 2022 – April 2023',
+      'I have learned full stack development using the MERN stack (MongoDB, Express.js, React.js, Node.js) and built multiple projects such as an e-commerce website, Instagram clone, AI chatbot, and more.',
+    date: 'August 2023 – April 2025',
     icon: <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />,
   },
   {
-    title: 'Student',
-    subtitle: 'Masai School',
-    description: 'Joined the Military style Bootcamp to learn Software Development and Data Structures. Also learned many soft skills in the process.',
-    date: 'Sep 2021 – Apr 2022',
+    title: 'Bachelor of Science in Computer Science',
+    subtitle: 'Krishna Group of Institutions, MJPRU University',
+    description: 'Currently in my final year of graduation. Gained strong foundational knowledge in programming, data structures, web development, and database management systems. Alongside academics, I have built practical skills through self-driven projects and online learning.',
+    date: 'August 2023 – April 2025',
     icon: <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />,
   },
-  {
-    title: 'Graduate',
-    subtitle: '',
-    description: 'Triuttani GRT Institute Of Engineering and Technology',
-    date: '2014 – 2018',
-    icon: <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />,
-  },
-   {
-    title: 'Graduate',
-    subtitle: '',
-    description: 'Government Girls Higher Secondary School, R.K.Pet, Tamil Nadu',
-    date: '2014 – 2018',
-    icon: <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />,
-  },
-  {
-    title: 'Graduate',
-    subtitle: '',
-    description: 'Government Girls Higher Secondary School, R.K.Pet, Tamil Nadu',
-    date: '2014 – 2018',
-    icon: <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />,
-  },
+
 ];
   return (
     <div className="timeline-wrapper">

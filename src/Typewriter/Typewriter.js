@@ -8,25 +8,26 @@ const Typewriter = ({ phrases }) => {
   const [blink, setBlink] = useState(true);
 
   useEffect(() => {
-    if (subIndex === phrases[index].length + 1 && !isDeleting) {
-      setTimeout(() => setIsDeleting(true), 1000);
-      return;
-    }
+  if (subIndex === phrases[index].length + 1 && !isDeleting) {
+    setTimeout(() => setIsDeleting(true), 1000);
+    return;
+  }
 
-    if (subIndex === 0 && isDeleting) {
-      setIsDeleting(false);
-      setIndex((prev) => (prev + 1) % phrases.length);
-      return;
-    }
+  if (subIndex === 0 && isDeleting) {
+    setIsDeleting(false);
+    setIndex((prev) => (prev + 1) % phrases.length);
+    return;
+  }
 
-    const timeout = setTimeout(() => {
-      setSubIndex((prev) =>
-        isDeleting ? prev - 1 : prev + 1
-      );
-    }, isDeleting ? 50 : 150);
+  const timeout = setTimeout(() => {
+    setSubIndex((prev) =>
+      isDeleting ? prev - 1 : prev + 1
+    );
+  }, isDeleting ? 50 : 150);
 
-    return () => clearTimeout(timeout);
-  }, [subIndex, isDeleting]);
+  return () => clearTimeout(timeout);
+}, [subIndex, isDeleting, phrases, index]); // ✅ Correct dependencies
+
 
   // cursor blinking
   useEffect(() => {

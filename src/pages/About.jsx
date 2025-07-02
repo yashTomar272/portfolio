@@ -8,17 +8,18 @@ export const About = () => {
               </div>
               <div className="different2 m-2" >
                 <h4 className='' style={{fontSize:"17px"}}>
-                  Hi Everyone, I am <span className="different">Khushboo </span>
-                  from <span className="different"> Bangalore, Karnataka</span>.
-                  I have completed my graduation in Bachelor of Computer Science Engineering
-                  from Triuttani, GRT Institute Of Engineering and Technology.
+                  Hi Everyone, I am <span className="different">Yash Kumar </span>
+                  from <span className="different">Bijnor, Uttar Prades</span>.
+                  I have completed my graduation with a Bachelor of Science degree in Computer Science from M.J.P. Rohilkhand University, Krishna College of Science & IT.
+
+
                 </h4>
                 <h4 >Some of my interests apart from Coding :</h4>
                 <h4 style={{fontSize:"17px"}} className="different">
                   <span className="icons">🏸</span> Sports Enthusiast
                 </h4>
                 <h4 style={{fontSize:"17px"}} className="different">
-                  <span className="icons">🏸</span> Badminton Player
+                  <span className="icons">🏸</span> PUBG Player
                 </h4>
                 <h4 style={{fontSize:"17px"}} className="different">
                   <span className="icons">📺</span> Watching Web-Series

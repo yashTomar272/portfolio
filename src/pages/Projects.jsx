@@ -1,10 +1,9 @@
 // ProjectSection.jsx
 import FadeIn from '../Animation/FadeIn'
-import image1 from '../imgs/image1.png'
-import image2 from '../imgs/image2.png'
-import image3 from '../imgs/image3.png'
-import image4 from '../imgs/image4.png'
-import image5 from '../imgs/image5.png'
+import s1 from '../imgs/s1.png'
+import s2 from '../imgs/s2.png'
+import s3 from '../imgs/s3.png'
+import s4 from '../imgs/s4.png'
 import {
   JavaScriptIcon1,
   HTMLIcon1,
@@ -15,56 +14,50 @@ import {
   ExpressIcon1,
   BootstrapIcon1,
   MongoDBIcon1,
+  AI,
   VercelIcon1,
+  Stripe,
   GitHubIcon1,
 } from '../Icons';
 
 const projects = [
   {
-    title: "Pulse–Plus Clone",
+    title: "Full-Stack Ecommerce",
     description:
-      "Clone of the popular Pulse+ plus web application to buy medical products. Built on javascript for front end. It's a team project completed executed in 5 days.",
-    image: image1, // Replace with real image link
-    tech: [HTMLIcon1, JavaScriptIcon1, CSSIcon1],
-    live: "#",
-    code: "#",
+      "Developed a full-stack E-commerce platform, using React and MongoDB. Implemented features like authentication, cart, and admin dashboard.",
+    image: s1, // Replace with real image link
+    tech: [HTMLIcon1, JavaScriptIcon1, CSSIcon1,ReactIcon1,NodeJSIcon1,ExpressIcon1,MongoDBIcon1,VercelIcon1,Stripe],
+    live: "https://full-stack-ecommerce-xyd9.vercel.app/",
+    code: "https://github.com/yashTomar272/full-stack-ecommerce",
   },
   {
-    title: "TataCliq Clone",
+    title: "AI Chatbot",
     description:
-      "A website to purchase fashion-related products. A collaborative project built by a team of 5 executed in 5 days.",
-    image: image2,
-    tech: [JavaScriptIcon1, CSSIcon1, VercelIcon1],
-    live: "#",
-    code: "#",
+     "Developed an AI ChatBot using React and OpenAI's GPT API that allows users to chat in real time, generate code, and save conversation history. authentication and deployed the app on Vercel. Built with a focus on clean UI and intelligent user experience.",
+    image: s4,
+       tech: [HTMLIcon1, JavaScriptIcon1, CSSIcon1,ReactIcon1,NodeJSIcon1,ExpressIcon1,MongoDBIcon1,VercelIcon1,AI],
+    live: "https://a-ichatbot-rocu.vercel.app/",
+    code: "https://github.com/yashTomar272/AIchatbot",
   },
   {
-    title: "Store.rockstargames",
+    title: "Insta Clone",
     description:
-      "Built the rockstargames application using ReactJS. The google authentication and payment functionality implemented.",
-    image:image3,
-    tech: [ReactIcon1,JavaScriptIcon1, BootstrapIcon1],
-    live: "#",
-    code: "#",
+      "Built a frontend-only Instagram clone using React.js to replicate the UI of Instagram. Designed all major components like feed, profile, and post layout with a focus on responsive design and pixel-perfect styling. This project demonstrates my frontend development and UI/UX skills.",
+    image:s3,
+     tech: [HTMLIcon1, JavaScriptIcon1, CSSIcon1,ReactIcon1,NodeJSIcon1,ExpressIcon1,MongoDBIcon1],
+    live: "https://yashtomar272.github.io/instaclone/",
+    code: "https://github.com/yashTomar272/instaclone",
   },
   {
-    title: "Aglecha Diamonds",
+    title: "Full-stack Elearning",
     description:
-      "Built the Aglecha diamonds application using ReactJS. Integrated the shopping cart, product filtering, and responsiveness.",
-    image: image4,
-    tech: [ExpressIcon1, NodeJSIcon1, ReduxIcon1,MongoDBIcon1],
-    live: "#",
-    code: "#",
+     "Developed a full-stack E-Learning platform using React and MongoDB with role-based dashboards for students,teacher and admins. Implemented features like course upload, video content, authentication, and user management. The platform is responsive, secure, and designed to deliver an efficient online learning experience.",
+    image: s2,
+        tech: [HTMLIcon1, JavaScriptIcon1, CSSIcon1,ReactIcon1,NodeJSIcon1,ExpressIcon1,MongoDBIcon1,VercelIcon1,Stripe],
+    live: "https://e-learn-fe6e.vercel.app/",
+    code: "https://github.com/yashTomar272/ELearn",
   },
-  {
-    title: "Aglecha Diamonds",
-    description:
-      "Built the Aglecha diamonds application using ReactJS. Integrated the shopping cart, product filtering, and responsiveness.",
-    image: image5,
-    tech: [GitHubIcon1, ReactIcon1, JavaScriptIcon1],
-    live: "#",
-    code: "#",
-  },
+ 
 ];
 
 const Projects = () => {
@@ -91,7 +84,7 @@ const Projects = () => {
         >
           {/* Image */}
           <div className="col-md-5 text-center mb-3 mb-md-0" >
-            <img style={{minHeight:"185px",border:"5px solid var(--clr-primary)", borderRadius:"15px"}}
+            <img style={{minHeight:"200px",border:"5px solid var(--clr-primary)", borderRadius:"15px"}}
             
               src={project.image}
 
@@ -110,8 +103,8 @@ const Projects = () => {
             </p>
             <div className="mb-3" style={{ color: "var(--clr-primary)", fontSize: "18px" }}>
               {project.tech.map((Icon, i) => (
-    <span key={i} className="me-3">
-      <Icon size={35} color="var(--clr-primary)" />
+    <span key={i} className="me-3 ">
+      <Icon size={35} color="var(--clr-primary)"/>
     </span>
   ))}
             </div>

@@ -1,4 +1,7 @@
 // App.js
+
+import "bootstrap/dist/css/bootstrap.css";
+ import "bootstrap/dist/js/bootstrap.bundle.js";
 import React, { useState } from 'react';
 import "./cssFile/Navbar.css";
 import "./cssFile/App.css"; 
@@ -7,8 +10,7 @@ import FadeIn from './Animation/FadeIn';
 import SkillsSection from './pages/SkillsSection';
 import Projects from './pages/Projects';
 import ColBody from './ColBody';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import Contact from './pages/Contact';
 import Header from './pages/Header';
 import { About } from './pages/About';
@@ -69,7 +71,7 @@ function App() {
 
       {/* -------------------FOOTER */}
       <ColBody>
-        <h3 style={{ fontSize: "14px" }} className="footer m-3">Made with ❤ By Yas Tomar</h3>
+        <h3 style={{ fontSize: "14px" }} className="footer m-3">Made with ❤ By Yash kumar</h3>
       </ColBody>
     </div>
   );

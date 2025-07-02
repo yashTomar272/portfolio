@@ -23,7 +23,7 @@ const Contact = () => {
       </h2>
       <div className="d-flex gap-4" style={{ marginTop: "20px" }}>
         <a
-          href="https://www.linkedin.com/in/khushboo-k-766692148/"
+          href="https://www.linkedin.com/in/yash-kumar-896453371/"
           target="_blank"
           rel="noreferrer"
           style={iconStyle}
@@ -31,7 +31,7 @@ const Contact = () => {
           <LinkedInIcon size={48}/>
         </a>
         <a
-          href="https://github.com/khushboo-choudhary"
+          href="https://github.com/yashTomar272"
           target="_blank"
           rel="noreferrer"
           style={iconStyle}
@@ -39,7 +39,7 @@ const Contact = () => {
           <GitHubIcon size={48}/>
         </a>
         <a
-          href="mailto:kkhushboo321@gmail.com"
+          href="mailto:tomarji272@gmail.com"
           target="_blank"
           rel="noreferrer"
           style={iconStyle}
@@ -47,7 +47,7 @@ const Contact = () => {
           <EmailIcon size={48}/>
         </a>
         <a
-          href="tel:+919944468826"
+          href="tel:+917983925369"
           target="_blank"
           rel="noreferrer"
           style={iconStyle}

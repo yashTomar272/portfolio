@@ -34,7 +34,7 @@ const Header = ({ light, setLight }) => {
       <header className="navbar position-fixed top-0 start-0 w-100" style={{ height: "70px", zIndex: 999 }}>
         <div className="container mx-auto d-flex justify-content-between align-items-center" style={{ maxWidth: "1100px", width: "100%", padding: "0 20px" }}>
           <div className="navbar__brand position-relative">
-            <div className="link m-2">Yas Tomar</div>
+            <div className="link m-2">Yash kumar</div>
           </div>
 
           <nav className="navbar__nav d-flex align-items-center gap-4">
@@ -51,7 +51,7 @@ const Header = ({ light, setLight }) => {
                 <li><a className='link' href="#projects">Projects</a></li>
                 <li><a className='link' href="#contact">Contact</a></li>
                 <li>
-                  <a className='link' href="https://drive.google.com/..." target="_blank" rel="noreferrer">
+                  <a className='link' href="https://drive.google.com/file/d/1M1uzw-iyuHQBMv6SfevmjzsTri3jB2h1/view?usp=drive_link" target="_blank" rel="noreferrer">
                     Resume
                   </a>
                 </li>
