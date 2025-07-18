@@ -38,7 +38,7 @@ const Home = () => {
           <a style={{color:"var(--clr-fg)"}} href="https://www.linkedin.com/in/yash-kumar-896453371/" target="_blank" rel="noreferrer" className="link link--icon" aria-label="LinkedIn">
             <LinkedInIcon />
           </a>
-          <a style={{color:"var(--clr-fg)"}} href="https://drive.google.com/file/d/1O8VfGf2mmkqBx-JPH8DImWQO2WQFNq2I/view?usp=drive_link" target="_blank" rel="noreferrer" className="link link--icon" aria-label="Resume">
+          <a style={{color:"var(--clr-fg)"}} href="https://drive.google.com/file/d/1Zxu6CsVgpl5b1jKyWC10vfYBsYq_C3Wp/view?usp=drive_link" target="_blank" rel="noreferrer" className="link link--icon" aria-label="Resume">
             <ResumeIcon />
           </a>
        
