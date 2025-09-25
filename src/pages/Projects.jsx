@@ -4,6 +4,7 @@ import s1 from '../imgs/s1.png'
 import s2 from '../imgs/s2.png'
 import s3 from '../imgs/s3.png'
 import s4 from '../imgs/s4.png'
+import s5 from '../imgs/s5.png'
 import {
   JavaScriptIcon1,
   HTMLIcon1,
@@ -21,6 +22,15 @@ import {
 } from '../Icons';
 
 const projects = [
+  {
+    title: "Pizza Delivery Website",
+    description:
+     "Implemented user and admin authentication with email verification and password reset, built dashboards for custom pizza orders and inventory management, and integrated Razorpay with automated stock update email alerts.",
+    image: s5, // Replace with real image link
+    tech: [HTMLIcon1, JavaScriptIcon1, CSSIcon1,ReactIcon1,NodeJSIcon1,ExpressIcon1,MongoDBIcon1,VercelIcon1,Stripe],
+    live: "https://pizzadelivery-ashy.vercel.app/",
+    code: "https://github.com/yashTomar272/OIBSIP/tree/ccd73ee0b56070570eed1e4ae1200d6bcd90327a/pizzadelivery",
+  },
   {
     title: "Full-Stack Ecommerce",
     description:

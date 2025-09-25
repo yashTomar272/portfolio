@@ -1,4 +1,4 @@
-import User from '../imgs/User.jpg'
+import User from '../imgs/user.jpeg'
 export const About = () => {
   return (      <div> 
          <h2 style={{textAlign:"center", }}><span className='different2'>ABOUT</span> <span className='different'>ME</span></h2>

@@ -51,7 +51,7 @@ const Header = ({ light, setLight }) => {
                 <li><a className='link' href="#projects">Projects</a></li>
                 <li><a className='link' href="#contact">Contact</a></li>
                 <li>
-                  <a className='link' href="https://drive.google.com/file/d/1Zxu6CsVgpl5b1jKyWC10vfYBsYq_C3Wp/view?usp=drive_link" target="_blank" rel="noreferrer">
+                  <a className='link' href="https://drive.google.com/file/d/1bsGBGs0c_kriWqu43-OM1KnHBgaxm4Zx/view?usp=drive_link" target="_blank" rel="noreferrer">
                     Resume
                   </a>
                 </li>
