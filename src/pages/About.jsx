@@ -9,8 +9,8 @@ export const About = () => {
               <div className="different2 m-2" >
                 <h4 className='' style={{fontSize:"17px"}}>
                   Hi Everyone, I am <span className="different">Yash Kumar </span>
-                  from <span className="different">Bijnor, Uttar Prades</span>.
-                  I have completed my graduation with a Bachelor of Science degree in Computer Science from M.J.P. Rohilkhand University, Krishna College of Science & IT.
+                  from <span className="different"> Uttar Prades</span>.
+                 I am currently pursuing a Bachelor of Science in Computer Science from M.J.P. Rohilkhand University, Krishna College of Science & IT.
 
 
                 </h4>
