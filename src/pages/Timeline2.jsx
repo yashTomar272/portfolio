@@ -10,16 +10,17 @@ const data = [
     subtitle: 'Self Learning & Personal Projects',
     description:
       'Frontend-focused developer skilled in React.js and JavaScript, with hands-on experience building responsive and interactive applications such as an e-commerce site, Instagram-style UI, and AI chatbot.',
-    date: 'August 2023 – (Present)',
+    date: 'August 2023 – [Present]',
     icon: <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />,
   },
   {
     title: 'Bachelor of Science in Computer Science',
     subtitle: 'Krishna Group of Institutions, MJPRU University',
     description: 'Currently in my final year of graduation. Gained strong foundational knowledge in programming, data structures, web development, and database management systems. Alongside academics, I have built practical skills through self-driven projects and online learning.',
-    date: 'August 2023 – (Present)',
+    date: 'August 2023 – [Present]',
     icon: <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />,
   },
+
 
 ];
   return (
