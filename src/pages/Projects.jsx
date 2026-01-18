@@ -10,15 +10,15 @@ import {
   HTMLIcon1,
   CSSIcon1,
   ReactIcon1,
-  ReduxIcon1,
+  
   NodeJSIcon1,
   ExpressIcon1,
-  BootstrapIcon1,
+  
   MongoDBIcon1,
   AI,
   VercelIcon1,
   Stripe,
-  GitHubIcon1,
+  
 } from '../Icons';
 
 const projects = [

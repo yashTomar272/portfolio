@@ -1,5 +1,5 @@
 import Typewriter from '../Typewriter/Typewriter';
-import {GitHubIcon,MailIcon,PhoneIcon, LinkedInIcon,ResumeIcon,LocationIcon} from '../Icons';
+import {GitHubIcon,MailIcon,PhoneIcon, LinkedInIcon,ResumeIcon} from '../Icons';
 const Home = () => {
   return (
        <div  style={{paddingTop:"200px"}}>
